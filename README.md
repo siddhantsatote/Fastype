@@ -10,4 +10,4 @@ Fastype is an interactive web application designed to help users improve their t
 
 ## Deployment
 
-The Fastype web application is deployed and hosted on GitHub Pages, allowing users to access and use it effortlessly through their web browsers. Visit [website URL](https://) to start improving your typing skills today.
+The Fastype web application is deployed and hosted on GitHub Pages, allowing users to access and use it effortlessly through their web browsers. Visit [website URL]( https://siddhantsatote.github.io/Fastype/) to start improving your typing skills today.
