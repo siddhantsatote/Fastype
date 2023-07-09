@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+  background-color: #333;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 80vh;
+}
+
+.arrow {
+  font-size: 3rem;
+  font-weight: 900rem;
+  font-family: "Manrope", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: #cecece;
+  transition: 0.5s;
+}
+
+.arrow:hover{
+    color: #fff;
+}
+
+.back-btn {
+  width: 100%;
+  height: 80px;
+}
+
+.back-btn ul {
+  width: 4rem;
+  height: 4rem;
+}
+
+.brand .our-brand {
+  text-align: left;
+  width: 44rem;
+  margin: 2rem;
+  text-align: justify;
+}
+
+.brand .our-brand h1 {
+  color: #d4d4d4;
+}
+
+.brand .our-brand p {
+  font-size: 1.5rem;
+  color: #a2a0a0;
+  margin-top: 0.5rem;
+}
+
+.brand .our-brand button {
+  width: 150px;
+  color: #999;
+  padding: 0.7rem;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #555;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.brand .our-brand button:hover{
+    color: #fff;
+}
+
+.slider {
+  width: 30rem;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3rem;
+}
+
+.swiper {
+  height: fit-content;
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  color: black;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background: black;
+}
+
+.key {
+  width: 100%;
+  height: 100vh;
+  background: black;
+}
+
+@media only screen and (max-width: 650px) {
+  .slider {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .brand .our-brand p {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 404px) {
+  .slider {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .brand .our-brand p {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .slider {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .brand .our-brand p {
+    font-size: 1.3rem;
+  }
+}
